@@ -1,85 +1,111 @@
-# 📊 E-Commerce Sales Analysis Dashboard
+# 📊 E-Commerce Sales Analysis
 
-This project analyzes e-commerce sales performance to uncover insights about **profit trends, sales by region, customer segments, product categories, and shipping efficiency**.  
-The analysis was done using **Python** for data cleaning and **Power BI** for data visualization.
+## Overview
+This project analyzes e-commerce sales data to uncover key business insights such as:
+- Top-selling product categories
+- High-performing regions
+- Monthly sales trends
+- Customer purchase patterns
 
----
-
-## 🖼 Dashboard Preview
-
-![Dashboard Screenshot](images/dashboard.png)
-
----
-
-## 🎯 Project Objectives
-- Identify **top performing** product categories and sub-categories.
-- Analyze **regional** and **state-wise** sales distribution.
-- Understand **customer segment** demand and profitability.
-- Compare **delivery times** and examine shipping impact on sales.
-- Provide actionable insights for **business decision making**.
+The goal is to demonstrate data cleaning, data analysis, visualization, and dashboard development skills relevant for Data Analyst roles.
 
 ---
 
-## 🧰 Tools & Technologies Used
-| Tool / Library | Purpose |
-|---|---|
-| **Python (Pandas, NumPy)** | Data cleaning & preprocessing |
-| **Matplotlib** | Data exploration plots |
-| **Power BI** | Interactive dashboard creation |
-| **GitHub** | Project hosting & version control |
+## Tools & Technologies Used
+
+| Task | Tools Used |
+|------|------------|
+| Data Cleaning & Analysis | Python, Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Dashboard | Power BI |
+| Version Control | Git, GitHub |
 
 ---
 
-### 📂 Project Structure
 
-Ecommerce-Sales-Analysis/
-│
-├── data/ # Dataset used for analysis
-│ └── ecommerce_sales_data.csv
-│
-├── notebooks/ # Jupyter analysis notebook
-│ └── Ecommerce_Sales_Analysis.ipynb
-│
-├── dashboard/ # Power BI dashboard file
-│ └── Ecommerce Sales Dashboard.pbix
-│ └── Ecommerce_Sales_Dashboard.pdf 
-│
-├── images/ # Images used in README
-│ └── dashboard_preview.png
-│
-└── README.md # Project documentation
+## Project Structure
 
----
+Ecommerce-Sales-Analysis\
+│\
+├── data\
+│ └── ecommerce_sales_data.csv\
+│\
+├── notebooks\
+│ └── Ecommerce_Sales_Analysis.ipynb\
+│\
+├── dashboard\
+│ └── Ecommerce_Sales_Dashboard.pbix\
+│\
+├── images\
+│ └── dashboard.png\
+│\
+└── README.md
 
-## 🔍 Key Insights
-- **Office Supplies** and **Technology** categories generated the highest sales.
-- Certain regions performed significantly better, indicating focused market opportunity.
-- **Standard class** shipping was most used, but **first class** showed better profit margins.
-- Customer segment **‘Consumer’** contributed the highest revenue volume.
 
 ---
 
-## 💼 Business Impact
-This analysis helps stakeholders:
-- Optimize **inventory planning** based on demand pattern.
-- Focus **marketing efforts** in high-profit regions.
-- Improve **delivery strategies** by comparing shipping effectiveness.
-- Identify **high-value customer segments** for retention and targeted offers.
+## Steps Performed
+
+### 1. Data Cleaning
+- Checked for missing values
+- Converted `Order Date` to datetime format
+- Created new fields such as **Month**, **Year**, and **Total Amount**
+
+### 2. Exploratory Data Analysis (EDA)
+- Sales by category
+- Sales by region
+- Monthly and seasonal trends
+- Customer purchase behavior
+
+### 3. Data Visualization
+- Bar charts, line charts, and pie charts using Python
+- Interactive dashboard in Power BI
 
 ---
 
-## 🚀 How to Use
-1. Open `.ipynb` file to view Python cleaning workflow.
-2. Open `.pbix` file in Power BI Desktop to interact with the dashboard.
-3. Refer to PDF report for summarized insights.
+## Dashboard Preview
+
+![Dashboard](images/dashboard.png)
 
 ---
 
-## 👤 Author
-**Chandini Chandran**  
-🔗 LinkedIn: https://www.linkedin.com/in/chandini-chandran  
+## Key Insights
+
+- Clothing and Home Decor categories generated the highest revenue.
+- The West region recorded the highest total sales.
+- Sales show peaks in January and August.
+- Repeat customers have a significant impact on total revenue.
 
 ---
 
-## ⭐ If you found this helpful
-Don’t forget to **star** this repository 😊
+## How to Run This Project
+
+### Clone the repository:
+
+git clone https://github.com/Chandinibc22/Ecommerce-Sales-Analysis.git
+
+
+### Install required libraries:
+
+pip install pandas numpy matplotlib seaborn
+
+
+### Run the notebook:
+Open `Ecommerce_Sales_Analysis.ipynb` in Jupyter/VS Code.
+
+### View Dashboard:
+Open `Ecommerce_Sales_Dashboard.pbix` in Power BI.
+
+---
+
+## Conclusion
+This project demonstrates:
+- Practical data analysis workflow
+- Ability to derive business insights
+- Dashboard reporting for decision-making
+
+It serves as a strong foundation for roles in **Data Analytics**, and future learning in **Data Science & Machine Learning**.
+
+---
+
+⭐ If you found this project helpful, feel free to star the repository!
