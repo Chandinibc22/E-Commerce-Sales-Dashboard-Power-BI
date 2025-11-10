@@ -1,4 +1,6 @@
-# 📊 E-Commerce Sales Analysis
+# 📊 E-Commerce Sales Dashboard (Power BI)
+
+#### Interactive Power BI dashboard analyzing sales performance by region, product category, and time period.
 
 ## Overview
 This project analyzes e-commerce sales data to uncover key business insights such as:
